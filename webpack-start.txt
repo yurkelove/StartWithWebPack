@@ -1,0 +1,11 @@
+1) npm init
+2) npm install webpack webpack-cli webpack-dev-server path --seve-dev 
+3) меняем dependencies на devDependencies - так как нам нужно что б потягивало новые версии
+4) создаем webpack.config - делаем точку входу, точку выхода, настраиваем config
+5) создаем index.html 
+6) запуск - npm run dev
+7) npm run build - создаем папку dist , то есть делаем сборку
+8) что б наш код работал во всех браузерах - установим babel  - npm install @babel/core @babel/preset-env babel-loader --save-dev
+9) создаем файл - .babelrc - с настройками
+
+
