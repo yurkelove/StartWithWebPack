@@ -1,4 +1,6 @@
 import './js/common.js'
+import './css/main.css'
+import './scss/main.scss'
 
 //4 способа импорта 
 // 1) import 'vue' - пока не найдет будет искать по иерархии
@@ -6,4 +8,4 @@ import './js/common.js'
 // 3) window.Vue = require('vue')
 // 4) import 'bootstrap/dist/css/bootstrap.min.css'
 
-window.Vue = require('vue')
+window.Vue = require('vue');

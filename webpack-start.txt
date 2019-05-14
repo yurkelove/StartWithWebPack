@@ -7,5 +7,9 @@
 7) npm run build - создаем папку dist , то есть делаем сборку
 8) что б наш код работал во всех браузерах - установим babel  - npm install @babel/core @babel/preset-env babel-loader --save-dev
 9) создаем файл - .babelrc - с настройками
-
-
+10) подключаем scss и css
+11) установим плагин что бы отделять наш js код от css кода , npm install --save-dev mini-css-extract-plugin
+12) установим css-loader - npm install --save-dev css-loader style-loader
+13) установим scss-loader - npm install sass-loader node-sass --save-dev
+14) создадим файл postcss.config.js - куда добавим и подключим наши дополнительные библиотеки
+15) подключаем библиотеки -  npm install postcss-loader autoprefixer css-mqpacker cssnano --save-dev
