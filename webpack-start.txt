@@ -23,3 +23,11 @@ Webpack-merge нужен чтобы отделять билд и дев разр
 19) обработчик для наших img файлов - npm install --save-dev file-loader 
 20) копировать наши изображения и статичные файлы из dev в build - npm install copy-webpack-plugin --save-dev
 21) Этот плагин нам понадобиться чтобы избавиться от index.html в корне проекта - npm install html-webpack-plugin --save-dev  
+
+//VUE
+попробуем сделать все на VUE
+npm install vue --save-dev
+установим vue-loader
+
+npm install vue-style-loader vue-loader vue-template-compiler --save-dev
+store  - npm install vuex --save

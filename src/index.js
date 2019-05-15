@@ -8,4 +8,18 @@ import './scss/main.scss'
 // 3) window.Vue = require('vue')
 // 4) import 'bootstrap/dist/css/bootstrap.min.css'
 
-window.Vue = require('vue');
+window.Vue = require('vue/dist/vue.js');
+import store from './store'
+
+Vue.component('example-component', require('./components/Example.vue').default)
+
+
+const app = new Vue({
+    data () {
+        return {
+            component: false
+        }
+    },
+    store: store, 
+    el: '#app'
+})

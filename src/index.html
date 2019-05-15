@@ -8,12 +8,29 @@
     <title>Webpack</title>
 </head>
 <body>
-    <section id="main">
-        <div class="wrapper">
-            <h1> Webpack First Start</h1>
-            <img src="/assets/img/1.jpg">
+    <div class="wrapper">
+        <div id="app">
+        <header>
+
+        </header>
+
+
+        <div class="content-wrapper">
+
+            <section id="main">
+                <div class="container">
+                    <h1>Webpack</h1>
+                    <button @click="component = !component">Show vue component</button>
+                </div>
+            </section>
+            <example-component v-if="component"></example-component>
+
+            <footer>
+
+            </footer>
         </div>
-    </section>
-    
-    <script src="/dist/app.js"></script>
+        </div>
+
+    </div>
+
 </body>
